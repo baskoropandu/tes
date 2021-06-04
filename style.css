@@ -1,0 +1,72 @@
+/* write your code here */
+body{
+    background-color:#243C58;
+    background-image: url("./images/background.png");
+    background-size: 100%;
+    background-blend-mode: overlay;
+
+    margin: 0%;
+}
+.top{
+    color: #E0E0D4;
+    margin-top: 2;
+    font-size: 400%;
+    margin-bottom: 0;
+}
+.index{
+    margin-top: 0;
+}
+p{
+    font-family: monospace ;
+    font-size: large;
+    color: #909A9C;
+}
+*{
+    color: #E0E0D4;
+    
+    font-family: monospace;
+}
+
+
+.atas{
+    text-align: center;
+    /* background-color: darkslategray;
+    width: 100%; */
+}
+.header{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    /* postion : fixed; */
+    /* top: 10; */
+    width: 100%;
+    background-color: #243C58;
+    background-image: url(./images/20160901-IMG_1088.jpg);
+    background-size: 100%;
+    background-blend-mode: multiply;
+    color: lightgrey;
+}
+.footer{
+    position : fixed;
+    left : 0;
+    bottom : 30;
+    width : 100%;
+    text-align: center;
+}
+.isi{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content:space-evenly;
+    /* align-items: center; */
+}
+.left{
+    /* margin-right: 50%; */
+    padding: 20px;
+    width: auto;
+}
+.right{
+    /* margin-left: 50%; */
+    padding: 20px;
+    width: auto;
+}
